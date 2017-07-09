@@ -14,11 +14,7 @@ set(RS_OBJ_FILES "")
 set(RENDER_SCRIPT_HEADERS_PATH ${ANDROID_NDK}/toolchains/renderscript/prebuilt/${ANDROID_HOST_TAG}/platform/rs)
 
 # create the jniLibs
-add_custom_target(
-    make_jniLibs
-    "${CMAKE_COMMAND}" -E make_directory "${PROJECT_SOURCE_DIR}/src/main/jniLibs/${ANDROID_ABI}"
-    COMMENT "Create 'jniLibs'"
-)
+execute_process(COMMAND mkdir -p "${PROJECT_SOURCE_DIR}/src/main/jniLibs/${ANDROID_ABI}")
 
 include_directories(src/main/cpp/include)
 include_directories(${RENDER_SCRIPT_HEADERS_PATH}/cpp
@@ -58,9 +54,6 @@ add_library( # Sets the name of the library.
              ${RS_OBJ_FILES}
              ${RS_FILES}
   )
-
-add_dependencies(native-lib make_jniLibs)
-
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
