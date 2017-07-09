@@ -1,0 +1,19 @@
+/home/pan/AndroidStudioProjects/NDKCallRenderScriptDemo/app/src/main/obj/local/armeabi/objs/hellocomputendk/mono.bc: \
+  mono.rs \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_core.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/clang-include/stdbool.h \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_value_types.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_object_types.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_allocation_create.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_allocation_data.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_atomic.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_convert.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_debug.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_for_each.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_io.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_math.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_matrix.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_vector_math.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_object_info.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_quaternion.rsh \
+  /home/pan/Android/Sdk/ndk-bundle/toolchains/renderscript/prebuilt/linux-x86_64/platform/rs/scriptc/rs_time.rsh
